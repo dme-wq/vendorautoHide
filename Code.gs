@@ -1,4 +1,4 @@
-﻿// ============================================================
+// ============================================================
 //  VendorBill Auto-Hide System — Code.gs
 //  Backend: Google Apps Script
 //  Author:  AI-powered by Antigravity + Gemini
@@ -9,7 +9,10 @@
 const CONFIG = {
   SOURCE_FOLDER_ID: '1WUsajzUXRV8w_PaIrNMm71mGyg_zZPI8',
   OUTPUT_FOLDER_ID: '1prX-2GkR0_aJZWB1FDmo3zKlVeiEEUL9',
-  GEMINI_API_KEY:   '',  // Set via Script Properties: GEMINI_API_KEY
+  // ✅ SECURE: Key is stored in Apps Script Script Properties (NOT in this file)
+  //    → Go to: Apps Script IDE → Project Settings → Script Properties
+  //    → Add: Name = GEMINI_API_KEY  |  Value = your key
+  GEMINI_API_KEY:   '',  // Leave blank here — loaded from Script Properties below
   PROCESSED_TAG:    '[VENDOR-SAFE]',
   LOG_SHEET_NAME:   'ProcessingLog',
   MAX_RETRIES:      3,
