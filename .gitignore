@@ -1,0 +1,16 @@
+﻿# Google Apps Script generated files
+.clasp.json
+*.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+.env
+.env.local
+
+# Vercel
+.vercel/
+
+# Credentials (never commit)
+credentials.json
+token.json

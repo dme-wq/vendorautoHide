@@ -1,0 +1,21 @@
+﻿{
+  "name": "vendorbill-autohide",
+  "version": "2.0.0",
+  "description": "AI-powered vendor bill auto-hide system — redacts amounts from bills for vendor-safe sharing",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "echo No build step required",
+    "deploy": "npx vercel --prod",
+    "push-gas": "npx clasp push",
+    "setup-gas": "npx clasp create --type webapp --title VendorBillAutoHide"
+  },
+  "keywords": ["google-apps-script", "vendor-bill", "pdf-redaction", "gemini-ai", "gdrive"],
+  "author": "RKD Marketing",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "serve": "^14.2.3",
+    "vercel": "^32.0.0"
+  }
+}
